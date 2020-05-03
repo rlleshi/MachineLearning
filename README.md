@@ -21,3 +21,7 @@ Different Machine Learning projects including complete pipelines for data collec
 <hr>
 
 # Logistic Regression
+
+Nudging customers to payed products by utilizing data produced by apps.
+Companies often provide free premium product/services in an attempt to transition their customers to the premium membership. In this case study, the services offered by a mobile app are examined. Customers have a 24 hour frame of free premium membership.
+Our goal is to determine which users are less likely to subscribe to the paid membership so that greater marketing offers can be directed at them in a bid to make them premium customers. The company could then offer a free one-month trial or even better a 50% off yearly subscription so that they win them over as premium users. After all, if you are running marketing offers you don't want to offer them to cutomers who will anyway subsribe to the premium membership eh?
