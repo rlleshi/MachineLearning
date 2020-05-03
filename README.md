@@ -13,5 +13,9 @@ Different Machine Learning projects including complete pipelines for data collec
 8. If the performance is not satisfactory, adjust the model
 9. Interpret the model and report results visually and numerically
 
+## Table of Contents
+1. [Logistic Regression](#lreg): Nudging customers to payed products by utilizing data produced by an app 
+
 <hr>
 
+# Logistic Regression (#lreg)
