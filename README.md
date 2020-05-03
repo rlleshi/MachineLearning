@@ -19,4 +19,4 @@ Different Machine Learning projects including complete pipelines for data collec
 <br><br>
 <hr>
 
-# Logistic Regression (#lreg)
+# Logistic Regression
