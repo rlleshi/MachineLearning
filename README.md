@@ -15,7 +15,7 @@ Different Machine Learning projects including complete pipelines for data collec
 <br>
 
 ## Table of Contents
-1. [Logistic Regression](logistic-regression): Nudging customers to payed products by utilizing data produced by an app 
+1. [Logistic Regression](#logistic-regression): Nudging customers to payed products by utilizing data produced by an app 
 
 <br><br>
 <hr>
