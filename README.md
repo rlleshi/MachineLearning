@@ -2,7 +2,7 @@
 
 Different Machine Learning projects including complete pipelines for data collection, cleaning and modelling. 
 
-## The Machine Learning Pipeline utilized for every algorithm
+## The Machine Learning Pipeline utilized for every project
 1. Question and required data
 2. Acquire the data
 3. Data preprocessing
