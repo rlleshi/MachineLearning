@@ -1,6 +1,6 @@
 # MachineLearning
 
-Different Machine Learning projects including complete pipelines for data collection, cleaning and modelling. 
+X different Machine Learning projects including complete pipelines for data collection, cleaning and modelling. 
 
 ## The Machine Learning Pipeline utilized for every project
 1. Question and required data
