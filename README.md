@@ -29,3 +29,4 @@ Our goal is to determine which users are less likely to subscribe to the paid me
 
 
 # Random Forests
+Our goal is to predict the quality of wines given a bunch of features (acidity, density, pH etc.). The original [paper](https://www.sciencedirect.com/science/article/pii/S0167923609001377?via%3Dihub) uses SVN, NN, and MR(multiple regression). An approach of random forests is here investigated which achieves very good results, *97.31%*.
