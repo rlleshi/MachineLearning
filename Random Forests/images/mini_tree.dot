@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="chlorides <= 0.0\ngini = 0.7\nsamples = 2346\nvalue = [16, 131, 1089, 1613, 680, 143, 0]"] ;
+1 [label="density <= 1.0\ngini = 0.7\nsamples = 821\nvalue = [6, 35, 189, 534, 409, 85, 0]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="alcohol <= 12.6\ngini = 0.7\nsamples = 524\nvalue = [2, 24, 74, 301, 330, 71, 0]"] ;
+1 -> 2 ;
+3 [label="gini = 0.7\nsamples = 401\nvalue = [1, 19, 71, 259, 204, 47, 0]"] ;
+2 -> 3 ;
+4 [label="gini = 0.5\nsamples = 123\nvalue = [1, 5, 3, 42, 126, 24, 0]"] ;
+2 -> 4 ;
+5 [label="density <= 1.0\ngini = 0.6\nsamples = 297\nvalue = [4, 11, 115, 233, 79, 14, 0]"] ;
+1 -> 5 ;
+6 [label="gini = 0.7\nsamples = 199\nvalue = [3, 9, 61, 141, 73, 14, 0]"] ;
+5 -> 6 ;
+7 [label="gini = 0.5\nsamples = 98\nvalue = [1, 2, 54, 92, 6, 0, 0]"] ;
+5 -> 7 ;
+8 [label="citric acid <= 0.2\ngini = 0.6\nsamples = 1525\nvalue = [10, 96, 900, 1079, 271, 58, 0]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="total sulfur dioxide <= 170.5\ngini = 0.6\nsamples = 221\nvalue = [1, 33, 196, 115, 8, 0, 0]"] ;
+8 -> 9 ;
+10 [label="gini = 0.6\nsamples = 169\nvalue = [0, 30, 137, 102, 8, 0, 0]"] ;
+9 -> 10 ;
+11 [label="gini = 0.4\nsamples = 52\nvalue = [1, 3, 59, 13, 0, 0, 0]"] ;
+9 -> 11 ;
+12 [label="citric acid <= 0.5\ngini = 0.6\nsamples = 1304\nvalue = [9, 63, 704, 964, 263, 58, 0]"] ;
+8 -> 12 ;
+13 [label="gini = 0.6\nsamples = 1168\nvalue = [9, 50, 582, 881, 258, 58, 0]"] ;
+12 -> 13 ;
+14 [label="gini = 0.6\nsamples = 136\nvalue = [0, 13, 122, 83, 5, 0, 0]"] ;
+12 -> 14 ;
+}
