@@ -35,5 +35,6 @@ Our goal is to predict the quality of wines given a bunch of features (acidity, 
 # SVN
 We explore a scikit-learn [dataset](https://scikit-learn.org/stable/datasets/index.html#breast-cancer-dataset) concerning malignant and begnin breast cancers. Our dataset consists of a feature vector of 30 features and 1 class which can be 0 (Malignant) or 1 (Benign).
 Our goal is to train a machine learning algorithm to classify -given the 30 features- unseen samples as either malignant or benign.
-SVM achieves the best result with *98.25%*, followed by Logistic regression (lasso) with *97.37%* and Random Forests with *95.61%*. SVM in particular outperforms even [this](https://www.sciencedirect.com/science/article/pii/S1877050916302575) paper. This is probably due to the supremacy of [scikit-learn](https://scikit-learn.org/stable/index.html) as a library but also due to the choice of a different kernel as a result of hyperparameter tuning.
+
+SVM achieves the best result with *98.25%*, followed by Logistic regression (lasso) with *97.37%* and Random Forests with *95.61%*. SVM in particular outperforms even the SVM model in [this](https://www.sciencedirect.com/science/article/pii/S1877050916302575) paper. This is probably due to the supremacy of [scikit-learn](https://scikit-learn.org/stable/index.html) as a library but also due to the choice of a different kernel as a result of hyperparameter tuning.
 
