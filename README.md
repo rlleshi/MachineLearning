@@ -1,7 +1,6 @@
 # MachineLearning
 
-Some fundamental machine learning and data analysis techniques are revisited here through practical projects
-3 different Machine Learning projects with complete pipelines for data collection, cleaning and modelling. 
+Some fundamental machine learning and data analysis techniques are revisited here through practical projects. <br>
 
 ## The Machine Learning Pipeline utilized for every project
 1. Question and required data
