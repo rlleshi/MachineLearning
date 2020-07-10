@@ -19,6 +19,7 @@ Almost every project has been worked in Jupyter notebooks. All the notebooks can
 1. [Logistic Regression](#logistic-regression): Nudging customers to payed products by utilizing data produced by an app 
 2. [Random Forests](#random-forests): Wine quality predictor
 3. [SVN](#sVN): Disease predictor
+4. [kMeans Clustering](#kMeans-Clustering): Image compression
 
 <br><br>
 <hr>
@@ -38,4 +39,10 @@ We explore a scikit-learn [dataset](https://scikit-learn.org/stable/datasets/ind
 Our goal is to train a machine learning algorithm to classify -given the 30 features- unseen samples as either malignant or benign.
 
 SVM achieves the best result with *98.25%*, followed by Logistic regression (lasso) with *97.37%* and Random Forests with *95.61%*. SVM in particular outperforms even the SVM model in [this](https://www.sciencedirect.com/science/article/pii/S1877050916302575) paper. This is probably due to the supremacy of [scikit-learn](https://scikit-learn.org/stable/index.html) as a library but also due to the choice of a different kernel as a result of hyperparameter tuning.
+
+# kMeans Clustering
+KMeans clustering belongs to a category called prototype-based clustering because each cluster is represented by a prototype, which is usually a centroid. It belongs to the class of unsupervised Machine Learning algorithms where the purpose is to scout for latent properties in the data. More information on the algorithm can be found [here](https://towardsdatascience.com/k-means-clustering-with-scikit-learn-6b47a369a83c).
+
+## KMeans clustering and image compresion
+The idea is that you can find n (32 for instance) clusters in the image and basically reduce all the 256^3 combinations of colors by creating a new image where the true input color is replaced by the color of the closest cluster. This is very feasible to apply since an image can just be thought of as a numpy array with a length equal to the height of the image and where each element is another array with length equal to the width of the image. Of course the width arrays just contain the RGB properties of the element (which is just a single pixel). The immediate downside of this approach is that the compresion comes at the cost of reducing the image quality.
 
