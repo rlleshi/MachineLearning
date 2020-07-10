@@ -1,6 +1,7 @@
 # MachineLearning
 
 Some fundamental machine learning and data analysis techniques are revisited here through practical projects. <br>
+Almost every project has been worked in Jupyter notebooks. All the notebooks can be found in a nice .pdf file, which also contains an attachement of the notebook itself.
 
 ## The Machine Learning Pipeline utilized for every project
 1. Question and required data
