@@ -21,6 +21,7 @@ Almost every project has been worked in Jupyter notebooks. The notebooks have al
 3. [SVN](#sVN): Disease predictor
 4. [kMeans Clustering](#kMeans-Clustering): Image compression
 5. [Neural Nets](#neural-nets): Autism Spectrum Disorder predictor
+6. [Deep neural nets](#deep-neural-nets): Banks' Customer exit predictor
 
 <br><br>
 <hr>
@@ -49,3 +50,5 @@ The idea is that you can find n (32 for instance) clusters in the image and basi
 
 # Neural Nets
 The task is to build an NN model which can predict autism. The model achieves a 99% acuracy rate on the testing set.
+
+# Deep Neural Nets
