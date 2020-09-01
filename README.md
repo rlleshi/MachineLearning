@@ -20,6 +20,7 @@ Almost every project has been worked in Jupyter notebooks. The notebooks have al
 2. [Random Forests](#random-forests): Wine quality predictor
 3. [SVN](#sVN): Disease predictor
 4. [kMeans Clustering](#kMeans-Clustering): Image compression
+5. [Neural Nets](#neural-nets): Autism Spectrum Disorder predictor
 
 <br><br>
 <hr>
@@ -46,3 +47,5 @@ KMeans clustering belongs to a category called prototype-based clustering becaus
 ## KMeans clustering and image compresion
 The idea is that you can find n (32 for instance) clusters in the image and basically reduce all the 256^3 combinations of colors by creating a new image where the true input color is replaced by the color of the closest cluster. This is very feasible to apply since an image can just be thought of as a numpy array with a length equal to the height of the image and where each element is another array with length equal to the width of the image. Of course the width arrays just contain the RGB properties of the element (which is just a single pixel). The immediate downside of this approach is that the compresion comes at the cost of reducing the image quality.
 
+# Neural Nets
+The task is to build an NN model which can predict autism. The model achieves a 99% acuracy rate on the testing set.
