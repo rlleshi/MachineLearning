@@ -1,0 +1,2 @@
+round_epochs,loss,acc,f1score,val_loss,val_acc,val_f1score,activation1,activation2,batch_size,dropout,epochs,kernel_initializer,layer1_units,layer2_units,layer3_units,layer4_units,losses,lr,optimizer,use_bias
+118,0.2929533674120903,0.87813336,0.6316451,0.36115788006782534,0.8544,0.5963122,relu,sigmoid,55,0.15,118,normal,55,15,26,24,binary_crossentropy,0.25,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>,True
