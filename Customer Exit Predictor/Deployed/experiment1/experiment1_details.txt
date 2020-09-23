@@ -1,0 +1,11 @@
+,0
+experiment_name,Customer exit prediction
+random_method,uniform_mersenne
+reduction_method,
+reduction_interval,50
+reduction_window,20
+reduction_threshold,0.2
+reduction_metric,val_acc
+complete_time,09/22/20/10:13
+x_shape,"(5000, 13)"
+y_shape,"(5000,)"
