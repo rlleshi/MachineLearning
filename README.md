@@ -52,3 +52,5 @@ The idea is that you can find n (32 for instance) clusters in the image and basi
 The task is to build an NN model which can predict autism. The model achieves a 99% acuracy rate on the testing set.
 
 # Deep Neural Nets
+The task is to predict whether a bank customer will leave the bank given a bunch of features.
+The DL model was built using Keras and hyperparameter optimization was performed using [talos](https://github.com/autonomio/talos)
